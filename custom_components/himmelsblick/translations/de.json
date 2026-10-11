@@ -1,0 +1,71 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Himmelsblick einrichten",
+        "description": "Ort für Wolken-, Strahlungs- und Aerosoldaten (Standard: dein Zuhause).",
+        "data": {
+          "name": "Name",
+          "latitude": "Breitengrad",
+          "longitude": "Längengrad"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "Dieser Ort ist bereits eingerichtet."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Himmelsblick",
+        "data": {
+          "intervall": "Abrufintervall"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wolken_gesamt": {
+        "name": "Wolken gesamt"
+      },
+      "wolken_hoch": {
+        "name": "Hohe Wolken (Schleier)"
+      },
+      "wolken_mittel": {
+        "name": "Mittelhohe Wolken"
+      },
+      "wolken_tief": {
+        "name": "Tiefe Wolken"
+      },
+      "aerosol": {
+        "name": "Aerosol-Trübung (AOD)"
+      },
+      "staub": {
+        "name": "Saharastaub"
+      },
+      "feinstaub": {
+        "name": "Feinstaub PM2,5"
+      },
+      "strahlung": {
+        "name": "Globalstrahlung"
+      },
+      "strahlung_direkt": {
+        "name": "Direktstrahlung"
+      },
+      "strahlung_diffus": {
+        "name": "Diffusstrahlung"
+      },
+      "klarer_himmel": {
+        "name": "Strahlung bei klarem Himmel"
+      },
+      "sonnenhoehe": {
+        "name": "Sonnenhöhe"
+      },
+      "verlauf": {
+        "name": "Tagesverlauf"
+      }
+    }
+  }
+}

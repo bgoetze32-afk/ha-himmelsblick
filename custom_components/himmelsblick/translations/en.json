@@ -1,0 +1,71 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Himmelsblick",
+        "description": "Location for cloud, radiation and aerosol data (default: your home).",
+        "data": {
+          "name": "Name",
+          "latitude": "Latitude",
+          "longitude": "Longitude"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This location is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Himmelsblick",
+        "data": {
+          "intervall": "Update interval"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "wolken_gesamt": {
+        "name": "Total cloud cover"
+      },
+      "wolken_hoch": {
+        "name": "High clouds (cirrus)"
+      },
+      "wolken_mittel": {
+        "name": "Mid-level clouds"
+      },
+      "wolken_tief": {
+        "name": "Low clouds"
+      },
+      "aerosol": {
+        "name": "Aerosol optical depth"
+      },
+      "staub": {
+        "name": "Saharan dust"
+      },
+      "feinstaub": {
+        "name": "Particulate matter PM2.5"
+      },
+      "strahlung": {
+        "name": "Global irradiance"
+      },
+      "strahlung_direkt": {
+        "name": "Direct irradiance"
+      },
+      "strahlung_diffus": {
+        "name": "Diffuse irradiance"
+      },
+      "klarer_himmel": {
+        "name": "Clear-sky irradiance"
+      },
+      "sonnenhoehe": {
+        "name": "Sun elevation"
+      },
+      "verlauf": {
+        "name": "Daily profile"
+      }
+    }
+  }
+}
